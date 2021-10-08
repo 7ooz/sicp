@@ -9,11 +9,9 @@
 (define (cube x)
   (* (squre x) x))
 
-
 (define (good-enough? guess new-guess)
   (< (/ (abs (- guess new-guess)) guess)
      0.01))
-
 
 (define (improve y x)
   (/ (+ (/ x (squre y)) (* 2 y))
