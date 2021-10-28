@@ -1,5 +1,5 @@
 
-## Setup
+## Environment Setup
 DrRacket：https://download.racket-lang.org/
 
 Install "sicp" package：  
